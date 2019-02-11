@@ -1,5 +1,5 @@
 {
-    "name": "web-id/nova-filemanager",
+    "name": "wdgt/nova-filemanager",
     "description": "Filemanager tool for Laravel Nova",
     "keywords": [
         "laravel",
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Léo TIOLLIER",
-            "email": "leo@web-id.fr",
+            "name": "Samuele",
+            "email": "mr.caolila@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,18 +24,18 @@
     },
     "autoload": {
         "psr-4": {
-            "WebId\\Filemanager\\": "src/"
+            "Wdgt\\Filemanager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WebId\\Filemanager\\Tests\\": "tests"
+            "Wdgt\\Filemanager\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "WebId\\Filemanager\\FilemanagerServiceProvider"
+                "Wdgt\\Filemanager\\FilemanagerServiceProvider"
             ]
         }
     },
