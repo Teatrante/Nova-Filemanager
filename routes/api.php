@@ -12,13 +12,13 @@ use Illuminate\Support\Facades\Route;
 | by your tool's "Authorize" middleware by default. Now, go build!
 |
  */
-Route::get('data', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@getData');
-Route::get('data/{search}', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@getSearchData');
-Route::post('actions/create-folder', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@createFolder');
-Route::post('actions/delete-folder', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@deleteFolder');
-Route::post('actions/get-info', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@getInfo');
-Route::post('actions/remove-file', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@removeFile');
-Route::post('actions/move-file', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@moveFile');
+Route::get('data', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@getData');
+Route::get('data/{search}', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@getSearchData');
+Route::post('actions/create-folder', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@createFolder');
+Route::post('actions/delete-folder', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@deleteFolder');
+Route::post('actions/get-info', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@getInfo');
+Route::post('actions/remove-file', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@removeFile');
+Route::post('actions/move-file', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@moveFile');
 
-Route::post('uploads/add', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@upload');
-Route::get('uploads/update', \WebId\Filemanager\Http\Controllers\FilemanagerToolController::class.'@updateFile');
+Route::post('uploads/add', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@upload');
+Route::get('uploads/update', \Wdgt\Filemanager\Http\Controllers\FilemanagerToolController::class.'@updateFile');

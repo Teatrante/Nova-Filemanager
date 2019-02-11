@@ -1,10 +1,10 @@
 <?php
 
-namespace WebId\Filemanager\Http\Middleware;
+namespace Wdgt\Filemanager\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use WebId\Filemanager\FilemanagerTool;
+use Wdgt\Filemanager\FilemanagerTool;
 use Symfony\Component\HttpFoundation\Response;
 
 class Authorize

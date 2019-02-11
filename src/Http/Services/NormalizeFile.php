@@ -1,6 +1,6 @@
 <?php
 
-namespace WebId\Filemanager\Http\Services;
+namespace Wdgt\Filemanager\Http\Services;
 
 use ZipArchive;
 use SplFileInfo;

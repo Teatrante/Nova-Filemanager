@@ -1,6 +1,6 @@
 <?php
 
-namespace WebId\Filemanager;
+namespace Wdgt\Filemanager;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool as BaseTool;

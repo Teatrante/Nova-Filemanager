@@ -1,9 +1,9 @@
 <?php
 
-namespace WebId\Filemanager;
+namespace Wdgt\Filemanager;
 
 use Laravel\Nova\Fields\Field;
-use WebId\Filemanager\Http\Services\FileManagerService;
+use Wdgt\Filemanager\Http\Services\FileManagerService;
 
 class FilemanagerField extends Field
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace WebId\Filemanager\Http\Controllers;
+namespace Wdgt\Filemanager\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use WebId\Filemanager\Http\Services\FileManagerService;
+use Wdgt\Filemanager\Http\Services\FileManagerService;
 
 class FilemanagerToolController extends Controller
 {
